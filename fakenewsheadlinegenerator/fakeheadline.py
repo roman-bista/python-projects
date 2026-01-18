@@ -36,4 +36,4 @@ while True:
     if user_input=="no":
         break
 
-print("\n thanks for using the fake News Headline Generator Have a nice day thanks your for using my basic program.....")
+print("\n thanks for using the fake News Headline Generator Have a nice day.")
