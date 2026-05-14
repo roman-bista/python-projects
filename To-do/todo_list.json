@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "description": "ddsdsds",
+            "complete": true
+        },
+        {
+            "description": "make my bed",
+            "complete": true
+        },
+        {
+            "description": "learn python",
+            "complete": false,
+            "priority": "mediu,",
+            "due_date": "2020-2-22"
+        }
+    ]
+}
