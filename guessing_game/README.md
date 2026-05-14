@@ -102,9 +102,3 @@ password-guessing-game/
 - Store high scores
 - GUI version using Tkinter or PyQt
 - Difficulty-based attempt limits
-
----
-
-## Author
-
-Roman
