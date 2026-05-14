@@ -2,7 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(__file__)
 history_file = os.path.join(BASE_DIR, "history.txt")
-
+ 
 
 def show_history():
     file=open(history_file,'r')
@@ -14,6 +14,7 @@ def show_history():
             print(line.strip())
     file.close()
 
+
 def clear_history():
     file=open(history_file,'w')
     file.close()
@@ -24,11 +25,14 @@ def save_to_history(equation,result):
     file.write(equation+ "=" +str(result)+"\n")
     file.close()
 
+
 def calculate(user_input):
+
     parts=user_input.split()
     if len(parts) !=3:
         print("invalid input. use format:number operator number (eg. 8+8)")
         return
+                                  
     num1=float(parts[0])
     operator=parts[1]
     num2=float(parts[2])
@@ -67,4 +71,5 @@ def main():
         else:
             calculate(user_input)
 
-main()
+if __name__ == "__main__":
+    main()
